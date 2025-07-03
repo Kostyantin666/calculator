@@ -1,38 +1,40 @@
-# 🗞️ Lenta.ru News Parser + Telegram Bot (with GUI)
+# Calculator App
+This is a graphical calculator application built with Python and Tkinter.
+It supports basic arithmetic operations, dark/light themes, and calculation history.
 
-Desktop app that fetches fresh news from [lenta.ru](https://lenta.ru), displays them in a GUI, and sends to Telegram in one click.
+# Features
+✅ Addition, subtraction, multiplication, division
 
-## 💻 Features
-- Parses headlines, links and timestamps from Lenta.ru
-- Shows latest news in a simple GUI (Tkinter)
-- Sends news to Telegram with one button
-- Dark theme with automatic refresh
-- History of last 10 news items
+🌗 Light and Dark mode switch
+
+🧾 History of calculations
+
+⌨️ Keyboard input support (optional)
+
+🖱️ Mouse hover animations
+
+📏 Responsive and clean layout
 
 ## 📦 How to run
 
 ```bash
-pip install -r requirements.txt
-python news_gui_bot.py
+python calculator.py
 ```
 
 ## 🚀 Build to .exe
 
 ```bash
-pyinstaller --onefile --windowed --icon=news_icon_1.ico news_gui_bot.py
+pyinstaller --noconsole --onefile --icon=icon.ico calculator.py
 ```
 
 ## 📷 Screenshots
 
-> (img/screen_npb_1.png)(img/screen_npb_2.png)
+> 
 
 ## 🛠 Tech stack
 
 - Python 3
 - Tkinter
-- BeautifulSoup4
-- python-telegram-bot
-- Asyncio
 
 ## 🧠 Author
 
